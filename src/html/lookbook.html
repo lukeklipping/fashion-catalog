@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Outfit Lookbook</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Link to styles.css -->
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="../html/index.html">The Fashion Catalog</a>
+
+            <!-- Navbar Toggler -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="../html/trending.html">Trending</a></li>
+                    <li class="nav-item"><a class="nav-link" href="../html/clothing.html">Clothing</a></li>
+                    <li class="nav-item"><a class="nav-link" href="../html/accessories.html">Accessories</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="../html/lookbook.html">Outfit Lookbook</a>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="../html/authors.html">About the Authors</a></li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../html/favorites.html">
+                            <img src="../assets/myotherimages/heart.png" alt="Favorites" width="20" height="20">
+                        </a>
+                    </li>
+                </ul>
+
+                <!-- Search Bar & Shopping Cart -->
+                <div class="d-flex align-items-center">
+                    <form class="d-flex search-bar" id="searchBar">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success me-2" type="submit">Search</button>
+                    </form>
+
+                    <!-- Shopping Cart Button -->
+                    <button class="btn cart-btn" onclick="window.location.href='../html/cart.html'">
+                        <img src="../assets/myotherimages/shoppingCart.png" alt="Shopping Cart" width="30" height="30"
+                            class="cart-icon">
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Lookbook Section -->
+    <section>
+        <h2 style="text-align: center; margin-top: 20px;"><strong>Outfit Lookbook</strong></h2>
+    </section>
+
+    <p class="text-center">Explore our carefully curated outfit combinations. The first stop to become a fashion expert!
+    </p>
+
+    <div id="lookbook-container" class="container mt-4">
+        <div class="row row-cols-1 row-cols-md-2 g-4">
+            <!-- Outfits will be loaded dynamically here -->
+        </div>
+    </div>
+
+    <footer class="text-body-secondary py-5">
+        <div class="container">
+            <p class="mb-1">Author: Jyotika Sharma</p>
+            <p class="mb-1">ISU NetID: jyotikas@iastate.edu</p>
+            <p class="mb-1">Date: February 3, 2025</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Link to lookbook.js -->
+    <script src="../js/lookbook.js" defer></script>
+
+</body>
+
+</html>

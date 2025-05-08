@@ -1,0 +1,262 @@
+{
+    "homepage": [
+        {
+            "product_id": "1",
+            "product_name": "Elegant Blouse",
+            "description": "Grace your wardrobe with this effortlessly stylish and lightweight blouse, designed for both comfort and sophistication. Whether you're dressing up for a night out or keeping it casual for a day in the city, this versatile blouse ensures you always exude elegance and charm.",
+            "price": "$39.99",
+            "image_url": "../assets/images/blouse.jpg",
+            "item_page": "../html/product.html?product_id=1"
+        },
+        {
+            "product_id": "2",
+            "product_name": "Chic Dress",
+            "description": "Turn heads and make a lasting impression with this sleek and refined dress, crafted for those who love to embrace elegance. Perfect for special occasions, date nights, or upscale gatherings, this dress flatters your figure while making you feel effortlessly luxurious.",
+            "price": "$79.99",
+            "image_url": "../assets/images/dress.jpg",
+            "item_page": "../html/product.html?product_id=2"
+        },
+        {
+            "product_id": "3",
+            "product_name": "Power Pantsuit",
+            "description": "Step into confidence and command attention with this stunning neutral-toned pantsuit. Whether you're leading a boardroom meeting or making a stylish statement at a networking event, this trendy yet professional ensemble radiates power, sophistication, and modern elegance.",
+            "price": "$99.99",
+            "image_url": "../assets/images/pantsuit.jpg",
+            "item_page": "../html/product.html?product_id=3"
+        },
+        {
+            "product_id": "4",
+            "product_name": "Casual Polo",
+            "description": "Elevate your everyday style with this breathable and effortlessly chic polo shirt. Designed for maximum comfort and timeless appeal, this go-to piece is perfect for brunch dates, weekend outings, or casual business settings where style and ease go hand in hand.",
+            "price": "$49.99",
+            "image_url": "../assets/images/polo.jpg",
+            "item_page": "../html/product.html?product_id=4"
+        },
+        {
+            "product_id": "5",
+            "product_name": "Cozy Sweater",
+            "description": "Wrap yourself in warmth and luxury with this ultra-soft, stylish sweater. Designed for those crisp autumn evenings or chilly winter mornings, this piece keeps you snug while ensuring you stay on-trend. Perfect for layering or wearing solo for an effortlessly chic look.",
+            "price": "$59.99",
+            "image_url": "../assets/images/sweater.jpg",
+            "item_page": "../html/product.html?product_id=5"
+        },
+        {
+            "product_id": "6",
+            "product_name": "Sweat Set",
+            "description": "The perfect blend of comfort and style—this cozy sweat set is made for lounging, errand runs, or casual meet-ups. Designed with soft, breathable fabric and a modern fit, it offers an effortless way to stay relaxed while looking effortlessly put-together.",
+            "price": "$69.99",
+            "image_url": "../assets/images/sweatset.webp",
+            "item_page": "../html/product.html?product_id=6"
+        }
+    ],
+    "clothing": [
+        {
+            "product_id": "7",
+            "product_name": "Camo Hoodie",
+            "description": "Stay warm and stylish with this trendy camo-print hoodie, perfect for streetwear lovers and casual outings.",
+            "price": "$45.99",
+            "image_url": "../assets/images/camoHoodie.avif",
+            "item_page": "../html/product.html?product_id=7"
+        },
+        {
+            "product_id": "8",
+            "product_name": "Elegant Blouse",
+            "description": "A refined blouse with lace details, designed to add elegance to any wardrobe.",
+            "price": "$39.99",
+            "image_url": "../assets/images/blouseItem.jpg",
+            "item_page": "../html/product.html?product_id=8"
+        },
+        {
+            "product_id": "9",
+            "product_name": "Graphic T-Shirt",
+            "description": "A bold and expressive graphic tee, perfect for casual wear and making a statement.",
+            "price": "$29.99",
+            "image_url": "../assets/images/graphicT-shirt.webp",
+            "item_page": "../html/product.html?product_id=9"
+        },
+        {
+            "product_id": "10",
+            "product_name": "Joggers",
+            "description": "Ultra-comfortable joggers made with breathable fabric, ideal for workouts or lounging.",
+            "price": "$39.99",
+            "image_url": "../assets/images/joggers.jpg",
+            "item_page": "../html/product.html?product_id=10"
+        },
+        {
+            "product_id": "11",
+            "product_name": "Leather Jacket",
+            "description": "A sleek leather jacket that brings an edgy and sophisticated touch to any outfit.",
+            "price": "$99.99",
+            "image_url": "../assets/images/leatherJacket.jpg",
+            "item_page": "../html/product.html?product_id=11"
+        },
+        {
+            "product_id": "12",
+            "product_name": "Straight Leg Jeans",
+            "description": "Classic straight-leg jeans designed for versatility and long-lasting comfort.",
+            "price": "$59.99",
+            "image_url": "../assets/images/straightLegJeans.avif",
+            "item_page": "../html/product.html?product_id=12"
+        }
+    ],
+    "trending": [
+        {
+            "product_id": "13",
+            "product_name": "Atheleisure Style",
+            "description": "Athleisure is a style of clothing that combines athletic and leisure wear, and is meant to be comfortable and versatile. Athleisure can be worn for exercising, running errands, or even in professional settings.",
+            "image_url": "../assets/images/atheleisure.jpeg",
+            "item_page": "../html/product.html?product_id=13"
+        },
+        {
+            "product_id": "14",
+            "product_name": "Business Casual Style",
+            "description": "A power suit is not just any suit; it's a statement! It symbolizes inner strength, confidence, and determination - a combination of elegance, sophistication, and fierceness. A power suit is not restricted to a specific style or color, but it should fit impeccably and make you feel like you're ready to conquer the world.",
+            "image_url": "../assets/images/powerSuit.jpeg",
+            "item_page": "../html/product.html?product_id=14"
+        },
+        {
+            "product_id": "15",
+            "product_name": "Streetwear Style",
+            "description": "Street style Cargo pants are a one-of-a-kind streetwear fashion characterized by several pockets with a tough appearance. They were formerly strictly functional but are now a staple of hipster style.",
+            "image_url": "../assets/images/cargoPants.jpg",
+            "item_page": "../html/product.html?product_id=15"
+        },
+        {
+            "product_id": "16",
+            "product_name": "Western Style",
+            "description": "A style of clothing that's known for its ruggedness, simplicity, and connection to nature. It often includes denim, leather, and cowboy hats and boots",
+            "image_url": "../assets/images/western.jpg",
+            "item_page": "../html/product.html?product_id=16"
+        },
+        {
+            "product_id": "17",
+            "product_name": "Classic Style",
+            "description": "A timeless, simple, and versatile style that's not dependent on current trends. Classic style is often associated with sophistication and elegance",
+            "image_url": "../assets/images/classic.jpg",
+            "item_page": "../html/product.html?product_id=17"
+        },
+        {
+            "product_id": "18",
+            "product_name": "Elegant Style",
+            "description": "a style that is graceful, stylish, and sophisticated. It often uses classic cuts and high-quality materials to create a polished look. Elegant fashion is often worn for special occasions.",
+            "image_url": "../assets/images/elegant.jpg",
+            "item_page": "../html/product.html?product_id=18"
+        }
+    ],
+    "accessories": [
+        {
+            "product_id": "19",
+            "product_name": "Watch",
+            "description": "This sleek, modern timepiece blends elegance with functionality.Featuring a minimalist dial with precision markers, a polished stainless steel case,and a supple leather strap, it exudes sophistication. Whether paired with a sharpsuit or casual attire, this watch is a statement of timeless style.",
+            "price": "$199.99",
+            "image_url": "../assets/images/watch.jpg",
+            "item_page": "../html/productAccessory.html?product_id=19"
+        },
+        {
+            "product_id": "20",
+            "product_name": "Handbag",
+            "description": "This brown chequered handbag is a perfect blend of classic charm and modern sophistication. Crafted from premium coated canvas with a timelesscheckered pattern, it features rich leather trims and gold-tone hardware for arefined finish.",
+            "price": "$99.99",
+            "image_url": "../assets/images/handbag.jpg",
+            "item_page": "../html/productAccessory.html?product_id=20"
+        },
+        {
+            "product_id": "21",
+            "product_name": "Sunglasses",
+            "description": "This quintessential glasses and sunglasses style has remained a truly iconic global fashion statement mainly because it hints at the flamboyant,celebrity lifestyle. The large open-framed lens with a slim squared-off bottom edgemakes the Clubmaster shape flattering on just about any face.",
+            "price": "$149.99",
+            "image_url": "../assets/images/sunglasses.jpg",
+            "item_page": "../html/productAccessory.html?product_id=21"
+        },
+        {
+            "product_id": "22",
+            "product_name": "Necklace",
+            "description": "Delicate and elegant, this small necklace features a fine chain adorned with a dainty ring pendant wrapped in intricately sculpted roses. Craftedfrom polished gold, the floral detailing adds a romantic and timeless charm. Perfectfor everyday wear or special occasions, this piece exudes grace and sophistication.",
+            "price": "$79.99",
+            "image_url": "../assets/images/necklace.jpg",
+            "item_page": "../html/productAccessory.html?product_id=22"
+        },
+        {
+            "product_id": "23",
+            "product_name": "Leather Belt",
+            "description": "Whether worn around the waist to cinch a dress or paired with jeans for a polished look, a fashion belt is a versatile piece that blends style with practicality.",
+            "price": "$39.99",
+            "image_url": "../assets/images/belt.jpg",
+            "item_page": "../html/productAccessory.html?product_id=23"
+        },
+        {
+            "product_id": "24",
+            "product_name": "Diamond Bracelet",
+            "description": " diamond bracelet is a timeless piece of jewelry that exudes elegance and sophistication. It features a series of meticulously set diamonds, often arranged in a continuous line or intricate design, encircling the wrist.",
+            "price": "$49.99",
+            "image_url": "../assets/images/bracelet.jpg",
+            "item_page": "../html/productAccessory.html?product_id=24"
+        }
+    ],
+    "authors": [
+        {
+            "name": "Jyotika Sharma",
+            "netid": "jyotikas@iastate.edu",
+            "author_img": "../assets/images/jyotika.jpeg",
+            "class_name": "SE/COMS 3190",
+            "date": "March 2nd, 2025"
+        },
+        {
+            "name": "Luke Klippign",
+            "netid": "lukeklip@iastate.edu",
+            "author_img": "../assets/images/lukusKlipping.png",
+            "class_name": "SE/COMS 3190",
+            "date": "March 2nd, 2025"
+        }
+    ],
+    "lookbook": [
+        {
+            "title": "Casual Day Out",
+            "description": "A classic T-shirt paired with denim jeans is the ultimate casual staple—easy to wear, comfortable, and effortlessly stylish. The neutral T-shirt keeps things laid-back, while the structured jeans add shape and durability. To elevate the outfit, a pair of sunglasses completes the look by adding a stylish, functional accessory. This outfit is perfect for running errands, grabbing coffee, or enjoying a relaxed day with friends.",
+            "top_image": "../assets/images/casualTSHIRT.webp",
+            "bottom_image": "../assets/images/casualJEANS.jpeg",
+            "accessory_image": "../assets/images/casualSUNGLASSES.webp",
+            "items": [
+                "Top: Neutral-colored casual T-shirt - breathable, simple, and versatile.",
+                "Bottom: Classic blue denim jeans - timeless, structured, and works with any top.",
+                "Accessory: Stylish sunglasses - enhances the look while providing sun protection."
+            ]
+        },
+        {
+            "title": "Sporty Look",
+            "description": "A black hoodie and joggers create an effortlessly sporty and athleisure-inspired look, blending comfort with trendiness. The matching black tones give a sleek, put-together feel, while the baseball cap adds a stylish yet functional finishing touch. This outfit is ideal for lounging, traveling, or casual meetups—offering the perfect mix of athletic and casual fashion.",
+            "top_image": "../assets/images/blackSweatshirt.webp",
+            "bottom_image": "../assets/images/blackJoggers.webp",
+            "accessory_image": "../assets/images/baseballCap.jpg",
+            "items": [
+                "Top: Black hoodie - cozy, warm, and adds a casual athletic vibe.",
+                "Bottom: Black joggers - comfortable, fitted yet relaxed for movement.",
+                "Accessory: Baseball cap - ties the look together, providing shade and a sporty feel."
+            ]
+        },
+        {
+            "title": "Business Casual Attire",
+            "description": "For a polished yet relaxed office look, a crisp white button-up shirt pairs effortlessly with navy blue trousers, creating a sharp and refined silhouette. The structured trousers bring a level of professionalism, while the button-up shirt keeps the look classic and clean. A leather belt completes the outfit, not only enhancing the fit but also adding a touch of sophistication. This outfit is perfect for office meetings, business lunches, or smart-casual events.",
+            "top_image": "../assets/images/buttonUp.jpg",
+            "bottom_image": "../assets/images/tailoredPants.webp",
+            "accessory_image": "../assets/images/leatherBelt.jpeg",
+            "items": [
+                "Top: White button-up shirt - clean, professional, and easy to layer.",
+                "Bottom: Navy blue trousers - tailored fit for a sleek business casual style.",
+                "Accessory: Leather belt - ties the whole look together with a refined finish."
+            ]
+        },
+        {
+            "title": "Warm Winter Look",
+            "description": "This outfit is cozy, comfortable, and stylish for chilly days. A chunky knit sweater serves as the focal point, offering warmth and texture. It’s paired with black leggings, which are both practical and versatile, creating a sleek contrast against the oversized sweater. A plaid scarf finishes off the look, adding a pop of color and extra warmth. This is a perfect winter outfit that feels stylish yet incredibly comfortable for everyday wear.",
+            "top_image": "../assets/images/sweaterFit.jpg",
+            "bottom_image": "../assets/images/leggings.webp",
+            "accessory_image": "../assets/images/scarf.jpg",
+            "items": [
+                "Top: Chunky knit sweater - warm, soft, and a great layering piece.",
+                "Bottom: Black leggings - snug, comfortable, and balances the oversized sweater.",
+                "Accessory: Plaid scarf - adds color, warmth, and a stylish winter touch."
+            ]
+        }
+    ]
+}

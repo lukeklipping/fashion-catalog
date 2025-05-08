@@ -1,0 +1,431 @@
+/* Reset some default styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #eaeaea;
+}
+
+.website-description {
+    font-family: "Playfair Display", serif;
+    font-size: 1.2rem;
+    color: #000000;
+    line-height: 1.6;
+    max-width: 900px;
+    margin: auto;
+    text-align: center;
+}
+
+h2 {
+    font-family: "Playfair Display", serif;
+    color: #fc8080;
+}
+
+/* Navigation Bar */
+.navbar {
+    background-color: #484c4f !important;
+    border-bottom: 3px solid #fc8080;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: "Playfair Display", serif;
+    color: #fc8080;
+}
+
+.navbar-nav .nav-link {
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #ffffff !important;
+    font-family: "Playfair Display", serif;
+    transition: color 0.3s ease;
+}
+
+/* Active Sales Section */
+.active-sales {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    position: fixed;
+    left: 0;
+    top: 80px;
+}
+
+.active-sale {
+    width: 200px;
+    height: 200px;
+    margin: 20px 0;
+    background-color: #fc8080;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: bold;
+    font-size: 0.8rem;
+    font-family: "Playfair Display", serif;
+    clip-path: polygon(50% 0%, 65% 25%, 100% 30%, 75% 50%,
+            100% 70%, 65% 75%, 50% 100%, 35% 75%,
+            0% 70%, 25% 50%, 0% 30%, 35% 25%);
+    transition: transform 0.3s, background-color 0.3s;
+    padding: 10px;
+    line-height: 1.5;
+}
+
+.active-sale span {
+    display: block;
+}
+
+
+/* Hover Effect */
+.active-sale:hover {
+    background-color: #ff0000;
+    transform: scale(1.1);
+}
+
+/* Gallery Section */
+#gallery {
+    margin-left: 200px;
+    padding: 1rem;
+
+}
+
+#gallery h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+/* Description Section */
+#description {
+    margin-left: 200px;
+    padding: 1rem;
+    text-align: center;
+}
+
+/* Search Bar */
+.search-bar input {
+    border-radius: 4px;
+}
+
+.search-bar button {
+    border-radius: 4px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .active-sales {
+        position: static;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .active-sale {
+        margin: 10px;
+        width: 80px;
+        height: 80px;
+    }
+
+    #gallery,
+    #description {
+        margin-left: 0;
+    }
+}
+
+/* Style for the Carousel Arrows */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+
+.carousel-control-prev-icon:hover,
+.carousel-control-next-icon:hover {
+    background-color: rgba(255, 0, 0, 0.7);
+}
+
+.carousel {
+    max-width: 750px;
+    margin: auto;
+}
+
+.carousel-inner {
+    width: 100%;
+    height: 750px;
+    overflow: hidden;
+}
+
+.carousel-item {
+    width: 100%;
+    height: 100%;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+
+.carousel-caption {
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90%;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 12px;
+    border-radius: 8px;
+    color: white;
+    font-family: "Poppins", sans-serif;
+}
+
+.carousel-caption h5 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #ae94ab;
+    font-family: "Playfair Display", serif;
+}
+
+.carousel-caption p {
+    font-size: 1rem;
+    margin-bottom: 3px;
+    color: #f8f9fa;
+    font-family: "Lato", sans-serif;
+}
+
+
+.carousel-caption p strong {
+    font-size: 1.2rem;
+    color: #373636;
+    font-weight: bold;
+    font-family: "Montserrat", sans-serif;
+}
+
+/* Shopping Cart Button */
+.cart-btn {
+    background: none;
+    border: none;
+    padding: 5px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.cart-btn:hover {
+    transform: scale(1.1);
+    background-color: transparent;
+}
+
+.cart-icon {
+    filter: invert(100%);
+}
+
+.btn-outline-success {
+    border: 2px solid #28a745 !important;
+    background-color: white !important;
+    color: #28a745 !important;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn-outline-success:hover {
+    background-color: #28a745 !important;
+    color: white !important;
+}
+
+.btn-view {
+    background-color: #9cd09e !important;
+    color: white !important;
+    border: none;
+    padding: 10px 20px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.btn-view:hover {
+    background-color: #388E3C !important;
+}
+
+.btn-add-to-cart {
+    background-color: #96bbf1 !important;
+    color: white !important;
+    border: none;
+    padding: 10px 20px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.btn-add-to-cart:hover {
+    background-color: #5691ea !important;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.btn-view {
+    background-color: #007bff;
+    color: white;
+}
+
+.btn-add-to-cart {
+    background-color: #28a745;
+    color: white;
+}
+
+.btn-remove {
+    background-color: #dc3545;
+    color: white;
+}
+
+.product-image {
+    width: 100%;
+    max-height: 150px;
+    object-fit: cover;
+}
+
+/* Outfit Lookbook Card Styling */
+
+
+.lookbook-card:hover {
+    transform: scale(1.03);
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Outfit Description Styling */
+.lookbook-description {
+    font-family: "Playfair Display", serif;
+    font-size: 1.1rem;
+    color: #333;
+    line-height: 1.6;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Item List Styling */
+.lookbook-items {
+    font-family: "Lato", sans-serif;
+    font-size: 1rem;
+    color: #444;
+    text-align: left;
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.lookbook-items li {
+    padding: 5px 0;
+    display: flex;
+    align-items: center;
+}
+
+.lookbook-items li::before {
+    color: #fc8080;
+    font-weight: bold;
+    margin-right: 8px;
+}
+
+/* Favorite Button Styling */
+.favorite-btn {
+    display: block;
+    margin: 15px auto 0;
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: #fc8080;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.favorite-btn:hover {
+    background-color: #e55e5e;
+}
+
+
+/* Search Results Page Styling */
+#search-results {
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.no-results {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    color: #888;
+    margin-top: 20px;
+}
+
+/* Grid Layout */
+.results-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+/* Product Card */
+.product-card {
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+}
+
+/* Product Image */
+.product-img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-bottom: 1px solid #eee;
+}
+
+/* Product Info */
+.product-info {
+    padding: 10px 0;
+}
+
+.product-title {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.product-price {
+    font-size: 14px;
+    color: #333;
+}
+
+/* Highlighted Search Term */
+.highlight {
+    background-color: yellow;
+    font-weight: bold;
+}
+
+/* Button */
+.btn-primary {
+    display: inline-block;
+    background: #007bff;
+    color: white;
+    padding: 8px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.btn-primary:hover {
+    background: #0056b3;
+}
